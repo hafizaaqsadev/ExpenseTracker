@@ -1,7 +1,8 @@
 [build]
   base = "frontend"
-  publish = "build"
-  command = "npm install && npm run build"
+  publish = "frontend/build"
+  command = "npm run build"
 
-[context.production.environment]
+[build.environment]
   NODE_VERSION = "20"
+  NPM_VERSION = "9"
