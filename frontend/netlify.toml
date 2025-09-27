@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"      # tells Netlify how to build the app
+  publish = "build"              # tells Netlify where the finished files are
+
+[build.environment]
+  NODE_VERSION = "20"            # make this the same Node version as your computer
